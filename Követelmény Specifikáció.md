@@ -1,3 +1,3 @@
-# Vágyálom rendszer
+## Vágyálom rendszer
 A projekt célja egy olyan zenei társ illettve banda kereső létrehozása , ahol zenészek illetve bandák könnyedén tudnak új társakat keresni . Cél egy könnyen átlátható és felhasználó barát program létrehozása , ahol a felhasználok regisztráció után pár alapvető szűrés segítségével tudjanak keresni társakat . Saját zenéket tudjanak feltölteni ahol éppen például egy hangszeren játszanak . A profil fülben képesek legyenek hangszereket megjelölni amiken tudnak játszani , vagy éppen tudnak e énekelni , ezzel is könnyitve a keresést .
 Ha mind a kettő fel lájkolta a másik profilját akkor ,képesek lesznek a másik fél elérhetőségeit látni és értékelést írni a másikről amik majd megjelennek a profil kártyán. Ha egy felhasználó eléri a 9.9 es értékelést vagy 10 es értékelést akkor kapjon egy profil matricát, minek célja a hozzáértés jelölését . Ha jelzik a tetszést akkor a másik felhasználó kap egy értesítést .
