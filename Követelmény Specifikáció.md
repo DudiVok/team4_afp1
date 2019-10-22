@@ -1,3 +1,8 @@
-1. Áttekintés :
+#Placeholder(project neve) - Követelmény Specifikáció
+
+##Igényelt üzleti folyamatok
+Tervezünk egy kezdőfelületet, amin a felhasználó regisztrálhat vagy bejeletkezhet. Ezt követően a felhasználó átkerül a képernyőtervben látható a központi felületre, ahol válogathat a többi felasználó közül, eggyesével, feltöltött minta zenéik, énekeik alapján. A menüsávban látható lehetőségek: értesítések, beállítások és profil. Az értesítésekben láthatóak azok a felhasználók, akik jelezték tetszésüket a jelenlegi felhasználó felé. Rájuk kantintva a felhasználó meghallgathatja a másik feltöltött mitaanyagát, és ha visszon jelzi tetszését, mind két fél megkapja a másik elérési adatait. A beállításokban lehet szűrőket beállítani, pl.:műfaj, hangszer, lakhely, továbbá lehet grafikus témát választani, illetve kijelentkezni. A profilban képes a felhasználló beállítani saját elérési adatait, feltölteni minta anyagot, beállítani a műfajt/műfajokat, hangszereket (éneket beleértve), amit tud játszani, és lakhelyét.
+
+##Áttekintés :
 
 Mindannyian ismerjük a mai társkereső alkalmazásokat, webhelyeket. Legtöbbjük csak átlagosfelhasználásra alkotja meg ezeket a randi oldalakat, összeeresztve sokféle ízléssel rendelkező egyént. Viszont sokan vannak akik csak a saját érdeklődési körükben lévő személyekkel szeretnének ismerkedni, barátkozni, művelje azt hobbi vagy munka szinten. Erre a problémára építve szeretnénk egy ismerkedős oldalt létrehozni,csak esetünkben ez csak a zenészekre összpontosul,főleg őket szólítja meg. Nem kell rengeteg emberrel fölösleges köröket futni mire megtalálod a személyt akivel találsz egy közös nevezőt. Az alkalmazásban a zenész személy regisztrálhatja a nevét, életkorát, és hogy milyen fajta zenei stílus iránt érdeklődik, és hogy mit keres épp a partnerében. Van lehetőség fényképet is feltölteni, megkönnyítve ezzel a felhasználók dolgát, ha épp specifikus eszközt használó személlyel szeretne találkozni.
