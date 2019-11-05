@@ -24,7 +24,11 @@ Reszponzív felület - PC-n igazodik a képernyőhöz a felület mérete, azaz k
  
  Szűrők - ezek beállításával kereshet a felhasználó (például ha egy gitáros énekest keresünk akkor, ezt a kettő lehetőséget be aktiválva a kereső algoritmus már csak ezeknek a paramétereknek megfelelő személyeket ajánl fel ).
 
-Profil - Ide tölthetünk fel profilképet ,olyan hangfájlokat amikben éppen egy hangszeren játszunk vagy éppen éneklünk , itt adhatunk meg egy rövidke leírást magunkról , itt adhatjuk meg hogy milyen hangszereken tudunk játszani vagy éppen tudunk-e énekleni (ezeket az adatokat fontos megadni regisztráció után mert a kereső motor ez alapján ajálhat fel mások számára !) . Értesítő sáv - Itt láthatjuk az értesítéseket hogy ki lájkolta a profilunkat ha itt rákattintunk egyyik értesítésre rögtön az adott személy profilját látjuk .
+Profil - Ide tölthetünk fel profilképet ,olyan hangfájlokat amikben éppen egy hangszeren játszunk vagy éppen éneklünk , itt adhatunk meg egy rövidke leírást magunkról , itt adhatjuk meg hogy milyen hangszereken tudunk játszani vagy éppen tudunk-e énekelni (ezeket az adatokat fontos megadni regisztráció után mert a kereső motor ez alapján ajánlhat fel mások számára !) .
+
+Értesítő sáv - Itt láthatjuk az értesítéseket hogy ki lájkolta a profilunkat. Ha itt rákattintunk egyik értesítésre, rögtön az adott személy profilját látjuk .
+
+## Törvényre vonatkozó 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjM2NTMxOF19
+eyJoaXN0b3J5IjpbLTQ4MDg2NzMxXX0=
 -->
