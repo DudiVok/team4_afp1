@@ -19,7 +19,12 @@ Jelenleg, ha valaki a bandájába keres valamilyen zenészt illetve ha ő maga a
 
 ## Fogalomtár
 Reszponzív felület - PC-n igazodik a képernyőhöz a felület mérete, azaz különböző méretarányú és felbontású kijelzőkön is probléma nélkül megjeleníthető.
- Lájk - mikor a felhasználó egy másik profilját látva az alatta megjelenő zöld jelzésre kattintva egy automatikus üzenetet küld a másik félnek az érdeklődése felől, erre kettő féleképpen válaszolhat a másik fél , vissza lájkol vagy rákattint a piros x-re . Szűrők - ezek be állításával kereshet a felhasználó (például ha egy gitáros énekest keresünk akkor, ezt a kettő lehetőséget be aktiválva a kereső algoritmus már csak ezeknek a paramétereknek megfelelő személyeket ajánl fel ). Profil - Ide tölthetünk fell profilképet ,olyan hangfájlokat amikben éppen egy hangszeren játszunk vagy éppen éneklönk , itt adhatunk meg egy rövidke leírást magunkról , itt adhatjuk meg hogy milyen hangszereken tudunk játszani vagy éppen tudunk-e énekleni (ezeket az adatokat fontos megadni regisztráció után mert a kereső motor ez alapján ajálhat fel mások számára !) . Értesítő sáv - Itt láthatjuk az értesítéseket hogy ki lájkolta a profilunkat ha itt rákattintunk egyyik értesítésre rögtön az adott személy profilját látjuk .
+
+ Lájk - mikor a felhasználó egy másik profilját látva az alatta megjelenő zöld jelzésre kattintva egy automatikus üzenetet küld a másik félnek az érdeklődése felől, erre kettő féleképpen válaszolhat a másik fél, vissza lájkol, vagy rákattint a piros x-re .
+ 
+ Szűrők - ezek beállításával kereshet a felhasználó (például ha egy gitáros énekest keresünk akkor, ezt a kettő lehetőséget be aktiválva a kereső algoritmus már csak ezeknek a paramétereknek megfelelő személyeket ajánl fel ).
+
+Profil - Ide tölthetünk fel profilképet ,olyan hangfájlokat amikben éppen egy hangszeren játszunk vagy éppen éneklünk , itt adhatunk meg egy rövidke leírást magunkról , itt adhatjuk meg hogy milyen hangszereken tudunk játszani vagy éppen tudunk-e énekleni (ezeket az adatokat fontos megadni regisztráció után mert a kereső motor ez alapján ajálhat fel mások számára !) . Értesítő sáv - Itt láthatjuk az értesítéseket hogy ki lájkolta a profilunkat ha itt rákattintunk egyyik értesítésre rögtön az adott személy profilját látjuk .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NzI1OTE0XX0=
+eyJoaXN0b3J5IjpbLTM1MjM2NTMxOF19
 -->
