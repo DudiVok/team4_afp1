@@ -64,11 +64,9 @@ A regisztráció két módon lehetséges: Facebook azonosító segítségével v
 
 A regisztrációt követően Üzemeltető és/vagy Tulajdonos a Felhasználó részére az Alkalmazás működésével kapcsolatosan, különösen versenyjelentkezéssel kapcsolatos tájékoztatást, visszaigazolást, alkalmazás frissítésével kapcsolatos tájékoztató leveleket küldhet a Felhasználó e-mail címére.
 
-A regisztráció során a Felhasználóról az email címén kívül tárolja a Tulajdonos és az Üzemeltető a Felhasználó mozgás adatait is, ehhez első telepítéskor hozzáférést kell adnia Google Fitnesz, vagy Apple Egészség alkalmazáshoz, melyet később bármikor visszavonhat az említett alkalmazásokban. Ha a Google Fitnesz telepítve van, és nem csak a mozgás adatbázis funkcióját használja a Felhasználó, akkor nem csak az edzések adatait, hanem az egyéb módon indított futás, gyaloglás, séta adatait is tároljuk. Az Apple Egészség alkalmazása esetében csak ‘Gyaloglás és futás’ mozgás adatait veszi át az Alkalmazás, ehhez kér jogosultságot első telepítéskor. Mozgás adatot az Apple Egészség esetében harmadik fél által fejlesztett alkalmazás is tud írni (pl. Nike Run Club, Strava, Endomondo, Runkeeper, Runtastic).
-
 Az Alkalmazás adatbázisából előzetes értesítés nélkül törlésre kerülhet az a Felhasználó, aki az általa megosztott tartalmakkal megsérti harmadik fél személyiségi vagy egyéb jogait, valamint a szerzői jogot, bármilyen Szellemi Tulajdonnal kapcsolatos jogot vagy bármilyen egyéb jogszabály rendelkezéseit, kereskedelmi, üzleti célú hirdetéseket jelenít meg (ún. spam) formájában akár saját profiljával, akár a közösségi felületeken megosztott üzenetekkel, más Felhasználókat zaklat, megfélemlít, rágalmaz saját profiljával. Az Alkalmazás adatbázisából előzetes értesítés nélkül törlésre kerülhet az a Felhasználó is, aki az Alkalmazást saját nevében terjeszti, részben vagy egészben másolja, átdolgozza, a Szellemi Tulajdont bármilyen egyéb módon bitorolja, másolja, azzal visszaél, jogosulatlanul használja az Alkalmazás és a Tulajdonos védjegyeit (pl. runaddict logó), kárt tesz az Alkalmazásban bármilyen módon, pl. szoftverek és távközlési berendezések segítségével a jelen Felhasználási Feltételekben foglaltakat bármilyen egyéb módon megszegi.
 
 A Felhasználó bármikor kérheti regisztrációjának törlését írásban a [hello@runaddict.hu](mailto:hello@runaddict.hu)  email címre küldött levélben.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ4Mjk3MTldfQ==
+eyJoaXN0b3J5IjpbLTEyMTg1NTIwNTJdfQ==
 -->
