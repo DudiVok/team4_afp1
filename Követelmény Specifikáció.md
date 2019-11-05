@@ -28,7 +28,11 @@ Profil - Ide tölthetünk fel profilképet ,olyan hangfájlokat amikben éppen e
 
 Értesítő sáv - Itt láthatjuk az értesítéseket hogy ki lájkolta a profilunkat. Ha itt rákattintunk egyik értesítésre, rögtön az adott személy profilját látjuk .
 
-## Törvényre vonatkozó 
+## Rendszerre vonatkozó törvények
+### Általános Információk
+Az Alkalmazáshoz való hozzáférést és annak használatát az alkalmazandó jogszabályok és a jelen Felhasználási Feltételek és Adatkezelési tájékoztató (a továbbiakban Felhasználási Feltételek) szabályozzák. Az Alkalmazást letöltők és használók (a továbbiakban: a Felhasználók) elfogadják a jelen Felhasználási Feltételeket. Amennyiben ezen Felhasználási Feltételeket és Adatkezelési Tájékoztatót nem fogadják el, nem jogosultak a regisztrációra és az Alkalmazás használatára.
+
+A jelen Felhasználási Feltételekre a magyar jog az irányadó, tekintet nélkül a nemzetközi magánjog előírásaira. Az Alkalmazás Felhasználói kifejezetten hozzájárulnak ahhoz, hogy a jogvitákra a magyar hatóságoknak és bíróságoknak legyen kizárólagos joghatóságuk a magyar jog alapján.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDg2NzMxXX0=
+eyJoaXN0b3J5IjpbNjUzNTI0MDA3XX0=
 -->
