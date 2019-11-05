@@ -49,14 +49,14 @@ Az Alkalmazáshoz kapcsolódó adatbázis módosítása kizárólag az Üzemelte
 
 Ha a Felhasználó az Alkalmazást használat közben bezárja, vagy ha a kapcsolat (bármely okból) megszakad a kiszolgáló webhelyével, abban az esetben az adatok elvesztéséért a Tulajdonos semmilyen felelősséget nem vállal. A Tulajdonos és az Üzemeltető a rendelkezésére álló eszközökkel biztosítja, hogy az Alkalmazás használata technikai szempontból biztonságosnak minősüljön. Az Alkalmazáshoz való csatlakozás miatt bekövetkező károkért, az internetes hálózat esetleges üzemkimaradásából, az elérési út hibájából, bármely nem várt technikai hibából eredő adatvesztésért, vírusból, vagy más károkért a Tulajdonos nem felelős. A Felhasználóknak minden esetben fel kell mérniük, hogy rendelkeznek-e az Alkalmazás használatához szükséges ismeretekkel, technikai követelményekkel és teljesítményekkel.
 
-###
+### Technikai követelmények
  Az Alkalmazás használatához szükséges technikai feltételek: Android operációs rendszer 4.0.3 vagy későbbi verziójával ellátott mobiltelefon vagy iOS operációs rendszer 9.0 vagy későbbi verziójával ellátott mobiltelefon, valamint minimum 100 MB szabad tárhely és a használathoz megfelelő sávszélességű internetelérés. A technikai feltételeket az Alkalmazás letöltéséhez és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szerver által nyújtott (kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban is.
 
-Az Alkalmazás telepítéssel, bizonyos funkciói pedig regisztrációt követően vehetőek használatba. A telepítés kizárólag a Google Play vagy az Apple App Store felületén keresztül engedélyezett. A mozgás adatok átvétele a Google Fitnesz vagy az Apple Egészség (Mozgás adatok) alkalmazáson keresztül történnek, ezen adatokat a Felhasználó egyéb mozgást mérő alkalmazásai is tölthetik, pl.: Endomondo, Strava, Runtastic, Runkeeper, Nike Run Club. Ezen harmadik fél által üzemeltett alkalmazások és Google Fitnesz vagy Apple Egészség között bekövetkező adatvesztésért, meghibásodásért a Tulajdonos és Üzemeltető nem vonható felelősségre.
+Az Alkalmazás telepítéssel, bizonyos funkciói pedig regisztrációt követően vehetőek használatba. A telepítés kizárólag a Google Play vagy az Apple App Store felületén keresztül engedélyezett.
 
 Az Alkalmazás verziózott, a mobiltelefonon futó operációs rendszer – beállításoktól függően – rendszeresen keres frissítéseket. Amennyiben az Apple App Store, illetve a Google Play-en elérhető frissítés, az operációs rendszer felajánlja a frissítés lehetőségét. Az Apple App Store, illetve a Google Play és az operációs rendszer működéséért a Tulajdonos semmilyen felelősséggel nem tartozik.
 
 Mobilkészülék cseréje során az Alkalmazás ismételt letöltése szükséges. Az új letöltés azonban nem igényel újabb regisztrációt és a korábbi, Alkalmazásban tárolt információk is elérhetőek maradnak bejelentkezést követően. Mobiltelefonszám cseréjekor a Felhasználónak nincs teendője az Alkalmazással kapcsolatban.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTcxNTM0NV19
+eyJoaXN0b3J5IjpbNDM4MzYwODA2XX0=
 -->
