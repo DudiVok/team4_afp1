@@ -42,6 +42,21 @@ Az Alkalmazás Felhasználói 13 éven felüli természetes személyek lehetnek.
 
 A Felhasználási Feltételek és az Alkalmazás működésének a módosítására, az Alkalmazás működésének a megszüntetésére a Tulajdonos bármikor jogosult, a Felhasználó előzetes értesítése nélkül. Az Alkalmazáshoz való hozzáférést a Tulajdonos bármikor visszavonhatja akár az adott Felhasználóra nézve, akár szélesebb körben vagy teljes körűen előzetes értesítés, figyelmeztetés nélkül.
 
+### Felelősségi szabályok
+A Tulajdonos fenntartja magának a jogot arra, hogy amennyiben valamely Felhasználó részéről bármilyen manipulációt, tömegesen generált letöltést, illetve az Alkalmazás szellemével bármilyen módon összeférhetetlen vagy azt sértő magatartást tapasztal, vagy ennek megalapozott gyanúja felmerül, úgy a Felhasználót azonnali hatállyal kizárja az Alkalmazás felhasználói köréből.
+
+Az Alkalmazáshoz kapcsolódó adatbázis módosítása kizárólag az Üzemeltető által, illetve az Alkalmazást üzemeltető webkiszolgálón keresztül lehetséges. Bármilyen külső, nem az Alkalmazás részeként elérhető eszközzel történő beavatkozás a Felhasználó azonnali kizárását eredményezi.
+
+Ha a Felhasználó az Alkalmazást használat közben bezárja, vagy ha a kapcsolat (bármely okból) megszakad a kiszolgáló webhelyével, abban az esetben az adatok elvesztéséért a Tulajdonos semmilyen felelősséget nem vállal. A Tulajdonos és az Üzemeltető a rendelkezésére álló eszközökkel biztosítja, hogy az Alkalmazás használata technikai szempontból biztonságosnak minősüljön. Az Alkalmazáshoz való csatlakozás miatt bekövetkező károkért, az internetes hálózat esetleges üzemkimaradásából, az elérési út hibájából, bármely nem várt technikai hibából eredő adatvesztésért, vírusból, vagy más károkért a Tulajdonos nem felelős. A Felhasználóknak minden esetben fel kell mérniük, hogy rendelkeznek-e az Alkalmazás használatához szükséges ismeretekkel, technikai követelményekkel és teljesítményekkel.
+
+###
+ Az Alkalmazás használatához szükséges technikai feltételek: Android operációs rendszer 4.0.3 vagy későbbi verziójával ellátott mobiltelefon vagy iOS operációs rendszer 9.0 vagy későbbi verziójával ellátott mobiltelefon, valamint minimum 100 MB szabad tárhely és a használathoz megfelelő sávszélességű internetelérés. A technikai feltételeket az Alkalmazás letöltéséhez és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szerver által nyújtott (kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban is.
+
+Az Alkalmazás telepítéssel, bizonyos funkciói pedig regisztrációt követően vehetőek használatba. A telepítés kizárólag a Google Play vagy az Apple App Store felületén keresztül engedélyezett. A mozgás adatok átvétele a Google Fitnesz vagy az Apple Egészség (Mozgás adatok) alkalmazáson keresztül történnek, ezen adatokat a Felhasználó egyéb mozgást mérő alkalmazásai is tölthetik, pl.: Endomondo, Strava, Runtastic, Runkeeper, Nike Run Club. Ezen harmadik fél által üzemeltett alkalmazások és Google Fitnesz vagy Apple Egészség között bekövetkező adatvesztésért, meghibásodásért a Tulajdonos és Üzemeltető nem vonható felelősségre.
+
+Az Alkalmazás verziózott, a mobiltelefonon futó operációs rendszer – beállításoktól függően – rendszeresen keres frissítéseket. Amennyiben az Apple App Store, illetve a Google Play-en elérhető frissítés, az operációs rendszer felajánlja a frissítés lehetőségét. Az Apple App Store, illetve a Google Play és az operációs rendszer működéséért a Tulajdonos semmilyen felelősséggel nem tartozik.
+
+Mobilkészülék cseréje során az Alkalmazás ismételt letöltése szükséges. Az új letöltés azonban nem igényel újabb regisztrációt és a korábbi, Alkalmazásban tárolt információk is elérhetőek maradnak bejelentkezést követően. Mobiltelefonszám cseréjekor a Felhasználónak nincs teendője az Alkalmazással kapcsolatban.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzU0MDU3Ml19
+eyJoaXN0b3J5IjpbLTk2MTcxNTM0NV19
 -->
