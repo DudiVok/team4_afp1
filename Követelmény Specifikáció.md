@@ -68,7 +68,42 @@ Az Alkalmazás adatbázisából előzetes értesítés nélkül törlésre kerü
 
 A Felhasználó bármikor kérheti regisztrációjának törlését írásban a tinderformusic@gmail.hu email címre küldött levélben.
 
+##Követelménylista
+|   Modul   | ID |  Név   |  Verzió  |
+|-----------|----|--------|----------|
+|Jogosultság| K1 | Bejelentkezés|1.0|
+|Jogosultság|K2|Regitráció|1.0|
+|Jogosultság|K3|Jogosultsági szintek|1.0|
+|Modifikáció|K4|Felhasználó módósítása|1.0|
+|Modifikáció|K5|Jelszó módósítása|1.0|
+|Modifikáció|K6|Elfelejtett felhasználónév/jelszó|1.0|
+|Feladattípus|K7|Promó anyag|1.0|
+|Statisztika|K8|Toplista|1.0|
+|Felület|K9|Üzenetek|1.0|
+|Felület|K10|Profil|1.0|
+###Kifejtés    
+####ID
+- K1  A felhasználó az email címe és a jelszava segítségével bejelentkezhet.
+Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA4Njc2NjRdfQ==
--->
+- K2  A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.
+A jelszó tárolása kódolva történik az adatbázisban. Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek,
+akkor a rendszer értesíti erről a felhasználót. 
+
+- K3   Admin-Rendszerhozzáférés, feladatok feltöltése, felhasználók / szerepkörök módósítása.
+Zenész-átlag felhasználó, üzenetek,likeok 
+
+- K4 A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése,
+valamint a felhasználó jelszavának megadása. 
+
+- K5 A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
+
+- K6 Ha a felhasználó elfelejtette a felhasználónevét, vagy jelszavát akkor ezzel az opcióval egy Adminhoz tud fordulni.
+
+- K7 A felhasználó regisztráció után feltölthet magáról egy promó anyagot bizonyítva, hogy zenész, megmutatva tehetségét.
+
+- K8 Egy lista a Zenészek Like-számairól, és pontjairól, a lista elején a legtöbb pontot elért felhasználó található.
+
+- K9 A felhasználók egymást között tudnak küldeni üzeneteket, jogosultságuktól függően.
+
+- K10 A felhasználónak lehetősége van a profilján található bemutatkozó szöveg módosítására.
