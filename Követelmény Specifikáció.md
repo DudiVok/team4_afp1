@@ -88,11 +88,11 @@ Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos
 Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:00 között. Az Alkalmazás működésével kapcsolatban a Felhasználó tinderformusic@gmail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol.
 
 
-## Követelménylista
+## Követelmény lista
 |   Modul   | ID |  Név   |  Verzió  |
 |-----------|----|--------|----------|
 |Jogosultság| K1 | Bejelentkezés|1.0|
-|Jogosultság|K2|Regitráció|1.0|
+|Jogosultság|K2|Regisztráció|1.0|
 |Jogosultság|K3|Jogosultsági szintek|1.0|
 |Modifikáció|K4|Felhasználó módósítása|1.0|
 |Modifikáció|K5|Jelszó módósítása|1.0|
