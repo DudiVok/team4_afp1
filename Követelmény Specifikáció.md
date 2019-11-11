@@ -72,26 +72,23 @@ A Felhasználó bármikor kérheti regisztrációjának törlését írásban a 
 
 ### Értesítések
 
-
 Az Alkalmazás használata során, a beépített üzenetküldő szolgáltatás segítségével értesítéseket kaphat a Felhasználó az Alkalmazással kapcsolatosan. A telepítést követően az első lépésként az Alkalmazás engedélyt kér a rendszerszintű értesítésekhez ezeket lemondani a telefon operációs rendszerének Beállításaiban lehetséges.
 
 ### Garancia és kártérítés
-
 
 Az Alkalmazás használatához a felhasználói oldalon szükséges – fent meghatározott vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie. Ezen technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából adódóan, a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szoftver által nyújtott (így kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban. A Tulajdonos nem vállal garanciát az Alkalmazás megszakításmentes működéséért, valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért a Tulajdonos szintén nem tartozik kártérítési felelősséggel.
 
 ### Egyéb rendelkezések
 
-
 Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos jogszabályok – különösen, de nem kizárólagosan a Polgári Törvénykönyvről szóló 2013. évi V. törvény, az Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről, az információs önrendelkezési jogról és az információ szabadságról szóló 2011. évi CXII. törvény, a szerzői jogról szóló 1999. évi LXXVI. törvény, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény – rendelkezései az irányadóak.
 
 
-### Kapocsolat
-
+### Kapcsolat
 
 Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:00 között. Az Alkalmazás működésével kapcsolatban a Felhasználó tinderformusic@gmail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol.
 
-##Követelménylista
+
+## Követelménylista
 |   Modul   | ID |  Név   |  Verzió  |
 |-----------|----|--------|----------|
 |Jogosultság| K1 | Bejelentkezés|1.0|
@@ -104,8 +101,9 @@ Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:0
 |Statisztika|K8|Toplista|1.0|
 |Felület|K9|Üzenetek|1.0|
 |Felület|K10|Profil|1.0|
-###Kifejtés    
-####ID
+
+### Kifejtés    
+#### ID
 - K1  A felhasználó az email címe és a jelszava segítségével bejelentkezhet.
 Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
 
