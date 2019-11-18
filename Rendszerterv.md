@@ -5,3 +5,38 @@ A rendszer célja , hogy a felhasználók könnyedén találhassanak az alkalmaz
 
 ## Architekturális terv
 A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A kliens oldali programokat egy Java alapú REST api szolgálja ki, ez csatlakozik az adatbázis szerverhez. Az asztali program JavaFX keretrendszer használatával készül el. A rest api-hoz a user belépését követően egyedi api-key segítségével lehet hozzáférni, ez biztosítja, hogy illetéktelen felhasználók ne módosíthassák az adatokat.
+
+## Funkcionális terv
+### Rendszerszereplők:
+- Admin
+- Diák
+
+### Rendszerhasználati esetek és lefutásaik:
+
+ADMIN: 
+- Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
+- A felhasználói adatokat látják, változtathatják
+- Felhasználó hozzáadására, törlésére van lehetőségük
+
+USER:
+- Zenék képek feltöltése 
+- Saját profil szerkesztése 
+- Szűrők használata 
+- Kapcsolatfelvétel más felhasználókkal
+- Lájk dislájk funkció használata 
+- Más felhasználók profiljának megtekintése 
+
+### Menü-hierarchiák:
+
+BEJELENTKEZÉS
+- Bejelentkezés
+- Regisztráció
+
+MAIN MENÜ
+- Beállítások/Profil szerkesztés 
+
+PROFIL
+- Profil kép feltöltése
+- Zene kép feltöltése
+
+
