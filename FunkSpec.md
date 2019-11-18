@@ -50,4 +50,15 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 
 - K10 A felhasználónak lehetősége van a profilján található bemutatkozó szöveg módosítására.
 
+## Fogalomszótár
+	- Lájk: A felhasználók like-olhatják (zöld like) vagy passzolhatják (piros x) egymás profilját miután megtekintették a promó anyagot és a bemutatkozó szöveget annak fényében, hogy tetszett-e a feltöltött tartalom.
+
+	- Szűrők: A felhasználó szűkebb körben kereshet zenei társat. Csak azokat a felhasználókat adja ki a kereső mező, ami megfelel a beállított feltételeknek.
+
+	- Profil: A felhasználó itt testreszabhatja saját profilképét, promó hanganyagát. Készythet rövid leírást magáról hogy jobban megismerjék.
+
+	- Értesítő sáv: A felhasználót értesíti az oldal (?) sarkában lévő ikon ha valaki más like-olta a profilját, vagy üzenetet küldött neki.
+
+	- Reszponzív felület: Az oldal méretei automatikusan igazodnak az aktuális eszközön.
+
 ## Forgatókönyv
