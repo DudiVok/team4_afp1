@@ -12,4 +12,42 @@ A mai világban ahol már mindent összeköt az internet és sokkal könnyebben 
 ## Igényelt üzleti folyamatok modellje
 Azért hogy egyszerűbbé tegyük a zenészek társasági összefogását  létrehozunk egy programot ami a mai kornak megfelelően helyt tud állni az elektronikai világban. Felhasználóinknak így egyszerűbb lesz magukról információt megosztani, valamint bemutatni tudásukat. A zeneileg nyitottak akár új, számukra eddig ismeretlen stílusokkal is ismerkedhetnek, hiszen a felhasználók egyedisége , személyisége teszi még színesebbé programunk. Ha egy óriás megapoliszban élünk, pl: Tokió, New York, Sanghaj, Delhi, Los Angeles, kizárt hogy mind a kb 30 millió emberről tudjuk, hogy milyen zenei beállítottságúak, és abban a stílusban hogyan teljesítenek
 
+## Követelménylista
+
+|   Modul   | ID |  Név   |  Verzió  |
+|-----------|----|--------|----------|
+|Jogosultság| K1 | Bejelentkezés|1.0|
+|Jogosultság|K2|Regisztráció|1.0|
+|Jogosultság|K3|Jogosultsági szintek|1.0|
+|Modifikáció|K4|Felhasználó módosítása|1.0|
+|Modifikáció|K5|Jelszó módosítása|1.0|
+|Modifikáció|K6|Elfelejtett felhasználónév/jelszó|1.0|
+|Feladattípus|K7|Promó anyag|1.0|
+|Statisztika|K8|Toplista|1.0|
+|Felület|K9|Üzenetek|1.0|
+|Felület|K10|Profil|1.0|
+
+### Kifejtés    
+#### ID
+- K1  A felhasználó a "Bejelentkezés" gombbal be tud jelentkezni a megadott felhasználónév és jelszó párossal. Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező fölött piros betűkkel tudatja velünk.
+
+- K2  A "Regisztráció gombra kattintva a felhasználó megadhatja az oldal használatához szükséges adatokat: "felhasználó" mezőbe egy egyedi felhasználónevet; "email" mezőbe a saját érvényes email címét; "jelszó" mezőbe egy egyedi kulcsszót, amit harmadik személynek semmiféleképpen nem adhatunk ki.
+Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező fölött piros betűkkel tudatja velünk.
+
+- K3  Felhasználói-Rendszerhozzáférés, like-olhat, küldhet üzenetet, tölthet fel profilképet és zenei hanganyagot, bemutatkozó szöveget.
+
+- K4 A felhasználó módosítani tudja saját Felhasználónevét a saját profil beállításain belül. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése, valamint a felhasználó jelszavának megadása. 
+
+- K5 A felhasználó módosítani tudja saját jelszavát a saját profil beállításain belül. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
+
+- K6 Ha a felhasználó elfelejtette a felhasználónevét vagy jelszavát, akkor ezzel az opcióval egy Adminhoz tud fordulni email címen keresztül.
+
+- K7 A felhasználó regisztráció után feltölthet magáról egy promó anyagot bizonyítva, hogy zenész, megmutatva tehetségét.
+
+- K8 Egy lista a Zenészek Like-számairól, és pontjairól, a lista elején a legtöbb pontot elért felhasználó található.
+
+- K9 A felhasználók egymást között tudnak küldeni üzeneteket, jogosultságuktól függően.
+
+- K10 A felhasználónak lehetősége van a profilján található bemutatkozó szöveg módosítására.
+
 ## Forgatókönyv
