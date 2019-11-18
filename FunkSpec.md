@@ -11,3 +11,5 @@ A mai világban ahol már mindent összeköt az internet és sokkal könnyebben 
 
 ## Igényelt üzleti folyamatok modellje
 Azért hogy egyszerűbbé tegyük a zenészek társasági összefogását  létrehozunk egy programot ami a mai kornak megfelelően helyt tud állni az elektronikai világban. Felhasználóinknak így egyszerűbb lesz magukról információt megosztani, valamint bemutatni tudásukat. A zeneileg nyitottak akár új, számukra eddig ismeretlen stílusokkal is ismerkedhetnek, hiszen a felhasználók egyedisége , személyisége teszi még színesebbé programunk. Ha egy óriás megapoliszban élünk, pl: Tokió, New York, Sanghaj, Delhi, Los Angeles, kizárt hogy mind a kb 30 millió emberről tudjuk, hogy milyen zenei beállítottságúak, és abban a stílusban hogyan teljesítenek
+
+## Forgatókönyv
