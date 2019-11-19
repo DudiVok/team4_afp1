@@ -3,6 +3,14 @@
 ## A rendszer célja
 A rendszer célja , hogy a felhasználók könnyedén találhassanak az alkalmazás segítségével zenei társaka akkikel akár késöbb zenei bandákat is létrehozhatnak. A felhasználóknak lehetőségük lessz profilképet feltölteni, hangfelvételeket feltölteni amiket ők csináltak ahogy éppen éenekelnek vagy valamilyen hangszeren játsznak, és rövid személyes leírást adni magukról. Az adminoknak lesz lehetőségük a spam fiókokat törölni . A program windows asztali körülmények között fog működni .A rendszer az adatokat egy Web Service segítségével kapja az adatbázisból. Mivel a programot csak windowsra szeretnénk elérhetővé tenni, nem célunk hogy más, például android operációs rendszerrel rendelkező eszközön fusson.
 
+## Követelmények
+|   Funkciónális követelmények   | Nem Funkciónális Követemények | 
+|--------------------------------|-------------------------------|
+|Felhasználók adatainak tárolása|Egymás adatain ne tudják módosítani a felhasználók|
+|Felhasználók üzeneteinek elküldése||
+|Alkalmazás megfelelő működése||
+|GDPR-nek való megfelelés||
+
 ## Projektterv
 |   Funkció   | Feladat |  Prioritás   |  Becslés  |
 |-----------|----|--------|----------|
