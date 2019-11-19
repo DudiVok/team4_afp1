@@ -68,6 +68,11 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 	- Reszponzív felület: Az oldal méretei automatikusan igazodnak az aktuális eszközön.
 
 ## Forgatókönyv
+-Megnyitja a felhasználó az alkalmazást.
+-Bejelentkezik vagy regisztrál, itt megadja a megfelelő adatait.
+-Bejelentkezés/regisztráció után felhasználók galériájában találja magát ahol lájkolhat kép alapján / bemehet a profilba és lejátszhatja a promó zenéjét az adott illetőnek, illetve elolvashatja a magáról írt bemutatkozó szövegét. 
+-Ha valaki böngészés közben like-ol azesetben egy felugró ablak jelzi melyre kattintva azonnal a like-oló felhasználói profilján találjuk magunkat.
+-Jobb alul található egy beállítások gomb amivel a saját profilunkra ugorhatunk, és módosíthatjuk saját adataink, promó zenénk.
 
 ## Funkció-Követelmény megfeleltetés
 - **Jogosultság:** *-registráció:* a szolgáltatás használatához felhasználoi fiók szükséges, ennek lérehozásoz szükség van egy regisztrációs felülethez. *-bejelentkezés:* Ahhoz, hogy a felhasználó elérhesse fiókját és a szolgáltatás által nyújtott lehetőségeket, továbbá hogy a szerver az ő, és nem más fiókjához kötött adatokat küldje át bejelenkezés szükséges. *-jogszintek:* Míg az egyszerű felhasználó csak a saját profiljáoz fér hozzá, addig a rendszergazdák másokét is képes módosítani, közösségi menedzsmenti okokból.
