@@ -15,6 +15,7 @@ Azért hogy egyszerűbbé tegyük a zenészek társasági összefogását  létr
 ## Használati esetek
 **Admin**: Az Admin elérheti az összes, minden más felhasználó álltal elérhető funkiót, hogy azok hibamentes működését ellenőrizhesse. Az Admin(ok) feladata a rendszer problémamentes működtetése. Ez egyben jár azzal, hogy az egész rendszerhez van hozzáférésük. Az Admin(ok)nak hozzá kell tudni férniük a felhasználók listájához, ahol mindent láthatnak és módosíthatnak egy felhasználó profilján. Tudniuk kell a felhasználók jogosultságait, szerepkörét, jelszavát, és felhasználónevét módosítani. Továbbá képesnek kell lenniük arra, hogy felhasználókat vegyenek fel rendszerbe és, amennyiben a felhasználó nem tartja be a felhasználási feltételeket, hogy eltávolítsák őket.
 **User**: A User eléri saját profilját, és azok profiljának publikus részét, akiket kiválasztott potenciáls bandatagnak. Továbbá képes belépni a kiválasztó képernyőbe, amin egyesével tudja megnézni, meghallgatni, majd ha tetszésének megfelel, kiválasztani az általik beállított szűrők alapján megjelenő felhasználókat. A User(ek)nek hozzá kell férniük saját profiljukhoz, amin módosítani kell tudniuk saját személyes adataikat (Név, Lakhely, Műfaj(ok), e-mail), és meg kell tudni jelölniük azokat privátnak vagy publikusnak. Meg kell tudniuk változtatni jelszavukat biztonsági okokból. Fel kell tudniuk tölteni demókat, ami alapján más felhasználók kiválaszthatják őket.
+
 ## Követelménylista
 
 |   Modul   | ID |  Név   |  Verzió  |
@@ -65,3 +66,10 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 	- Reszponzív felület: Az oldal méretei automatikusan igazodnak az aktuális eszközön.
 
 ## Forgatókönyv
+
+## Funkció-Követelmény megfeleltetés
+- **Jogosultság:** *-registráció:* a szolgáltatás használatához felhasználoi fiók szükséges, ennek lérehozásoz szükség van egy regisztrációs felülethez. *-bejelentkezés:* Ahhoz, hogy a felhasználó elérhesse fiókját és a szolgáltatás által nyújtott lehetőségeket, továbbá hogy a szerver az ő, és nem más fiókjához kötött adatokat küldje át bejelenkezés szükséges. *-jogszintek:* Míg az egyszerű felhasználó csak a saját profiljáoz fér hozzá, addig a rendszergazdák másokét is képes módosítani, közösségi menedzsmenti okokból.
+- **Modifikáció:** *-név:* A felhasználó saját profiljába belépve képes lesz módosítani nevét. *-jelszó:* A felhasználó profilján keresztül képes lesz elérni a jelszó módosítás képernyőt, amin az eddigi jelszava megadásával képes lesz újat beállítani magának. *-elfelejtett jelszó:* A belépési képernyő része, amin képes lesz a felhasználó külső jelszóváltoztatást kérni regisztrált e-mail címére az autómata rendszertől.
+- **Feladattípus:** *-demó:* A felhasználó képes lesz egy, vagy több demó feltöltésére, amiket majd felruházhat stílus és hangszer jelölőkkel, és amiket a központi adatbázisban fogunk tárolni.
+- **Statisztika:** *-toplista:* Külön felület, amin a felhasználók láthatják az aktuális, felhasználók által pontozott ranglétrát.
+- **Felület:** *-üzenet:* Chatszobák, amiken keresztül a felhasználók képesek felvenni a kapcsolatot az általuk kiválasztott felhasználótársakkal. *-profil:* A felhasználó saját felülete, ahol képes saját adatait (pl.: műfjok, hangszerek) módosítani.
