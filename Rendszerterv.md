@@ -42,6 +42,12 @@ PROFIL
 ## Absztrakt domain modell
 A rendszert a felhasználó egy Windowsos alkalmazáson keresztül érheti majd el, aminek az elkészítését Java nyelven tervezzük. A felület lehetővé teszi majd a felhasznéló számára a regisztrációt, illetve késöbbieken a bejelentkezést a rendszerbe. A rendszeren belül lehetőséget nyújtunk a felhasználónak saját profilját elérni, illetve változtatni, akövetkező módokon: saját szűrési kritériumok beállítása (név, lakhely, műfaj(ok), hangszer(ek)), demo feltöltés, profilkép feltöltés, jelszóváltoztatás, láthatósági beállítások. Továbbá a felhasználó képes keresni a többi felhasználó között az alábbi szűrők segítségével: név, relatív távolság a felhasználók lakhelye között, játszott műfajok, játszott hangszerek. A szűrés alapján megjelenő felhasználók közül választhat az ő általuk feltöltött zenék segítségével, és felveheti a kapcsolatot a kiválasztott felhasználótársakkar, akár e-mail, akár egy beépített chat funkció segítségével. A felhasználól, azok adatai, valamint demói egy központi szerveren MySQL adatbázisban lesznek eltárolva.
 
+## Implementációs terv
+### Windows Desktop Application
+Az alkalmazás felhasználói oldalát asztali alkazznak tervezzük, főleg mert a csapat nagy része sújos tapasztalt hiányban szenved mind mobil, mind webes alkalmazások implementáció terén. A terv a JAVA nyelv használatát írja elő, főleg mert ismerős és könnyen használható.
+### Adatbázis
+A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen. A felhasználók, és azok adatainak rögzítése, tásrolása és rendszerezése céljából, továbbá hogy lehetővé tegyük a felhasználóknak az egymás közötti könnyű keresést a modern adatbáziskezelés konvenciói a leg célravezetőbbek. Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, ismételten az ismerettségeink tudatában, és a megbízhatóság fényében.
+
 ## Karbantartási terv
 Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Microsoft Windows verziókkal kompatibilis-e az alkalmazás. A jövőben szükség lehet új hardware implementációra igénynövekedés esetén.
 **Karbantartás**
