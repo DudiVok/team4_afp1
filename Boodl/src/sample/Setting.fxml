@@ -10,19 +10,19 @@
     <TextField prefHeight="300" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="0" />
     <GridPane GridPane.columnIndex="2" GridPane.rowIndex="0">
       <children>
-         <CheckBox mnemonicParsing="false" text="Tudok gitározni" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+         <CheckBox mnemonicParsing="false" text="Tudok gitározni" GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="T_G" />
       </children>
         <children>
-            <CheckBox mnemonicParsing="false" text="Tudok énekelni" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <CheckBox mnemonicParsing="false" text="Tudok énekelni" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="T_É" />
         </children>
         <children>
-            <CheckBox mnemonicParsing="false" text="Tudok dobolni" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <CheckBox mnemonicParsing="false" text="Tudok dobolni" GridPane.columnIndex="0" GridPane.rowIndex="2"  fx:id="T_D"/>
         </children>
         <children>
-            <CheckBox mnemonicParsing="false" text="Tudok hegedülni" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <CheckBox mnemonicParsing="false" text="Tudok hegedülni" GridPane.columnIndex="0" GridPane.rowIndex="3"  fx:id="T_H"/>
         </children>
         <children>
-            <CheckBox mnemonicParsing="false" text="Tudok Szaxofonozni" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <CheckBox mnemonicParsing="false" text="Tudok Szaxofonozni" GridPane.columnIndex="0" GridPane.rowIndex="4"  fx:id="T_SZ"/>
         </children>
       <columnConstraints>
          <ColumnConstraints />
@@ -41,19 +41,19 @@
       </font></Label>
     <GridPane alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
         <children>
-            <CheckBox mnemonicParsing="true" text="Gitárost" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <CheckBox mnemonicParsing="true" text="Gitárost" GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="K_G" />
         </children>
         <children>
-            <CheckBox mnemonicParsing="true" text="Énekest" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <CheckBox mnemonicParsing="true" text="Énekest" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="K_É" />
         </children>
         <children>
-            <CheckBox mnemonicParsing="true" text="Dobost" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <CheckBox mnemonicParsing="true" text="Dobost" GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="K_D" />
         </children>
         <children>
-            <CheckBox mnemonicParsing="true" text="Hegedűst" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <CheckBox mnemonicParsing="true" text="Hegedűst" GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="K_H" />
         </children>
         <children>
-            <CheckBox mnemonicParsing="true" text="Szaxofonost" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <CheckBox mnemonicParsing="true" text="Szaxofonost" GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="K_SZ" />
         </children>
       <columnConstraints>
          <ColumnConstraints />
