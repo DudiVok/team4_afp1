@@ -94,9 +94,7 @@ Az alkalmazás felhasználói oldalát asztali alkazznak tervezzük, főleg mert
 A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen. A felhasználók, és azok adatainak rögzítése, tásrolása és rendszerezése céljából, továbbá hogy lehetővé tegyük a felhasználóknak az egymás közötti könnyű keresést a modern adatbáziskezelés konvenciói a leg célravezetőbbek. Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, ismételten az ismerettségeink tudatában, és a megbízhatóság fényében.
 
 ## Telepítési terv
-- Töltse le az alkalmazást a Microsoft Store áruházból, adja meg a szükséges engedélyeket és telepítse a programot!
-
-- Amennyiben nem az áruházból kívánja telepíteni az alkalmazást, úgy töltse le honlapunkról, csomagolja ki adja meg a szükséges engedélyeket!
+- Az projektünkbe foglalt alkalmazás egy olyan szoftver amelyet minden felhasználó az ő rá vonatkozó áruházból szerezhet be (Play Store, Apple Store, Microsoft Store), de akár a weboldalunkon keresztül is beszerezhető. Áruházból való telepítés során a felhasználónak szüksége van egy ahhoz az áruházhoz tartozó fiókra. Ha nincs fiókja akkor az áruház által felajánlott regisztrációs lépések után jelentkezzen be a fiókjába. Ez után a fenti keresősávba beírva azt, hogy "Boodl", vagy a weboldalunkon megadott hyperlink hivatkozás segítségével érheti el az alkalmazásunkat. Miután megnyílt az alkalmazás áruházas oldala a "letöltés" gombra nyomva egy felugró ablak fog fogadni minket amelyben az alkalmazás által felhasznált jogosultságokról tájékoztat. A folytatáshoz ezt el kell fogadni, és ez után már települ is az alkalmazás. Ha valamilyen oknál fogva a felhasználó szeretné elkerülni az áruházak alkalmazását, a weboldalunkon keresztül akár natívan is letöltheti az alkalmazásunk telepítő csomagját, amely telepítését tekintve hasonló procedúrán megy keresztül az áruházas alternatívákhoz képest.
 
 
 ## Karbantartási terv
