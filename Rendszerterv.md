@@ -93,6 +93,12 @@ Az alkalmazás felhasználói oldalát asztali alkazznak tervezzük, főleg mert
 ### Adatbázis
 A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen. A felhasználók, és azok adatainak rögzítése, tásrolása és rendszerezése céljából, továbbá hogy lehetővé tegyük a felhasználóknak az egymás közötti könnyű keresést a modern adatbáziskezelés konvenciói a leg célravezetőbbek. Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, ismételten az ismerettségeink tudatában, és a megbízhatóság fényében.
 
+## Telepítési terv
+- Töltse le az alkalmazást a Microsoft Store áruházból, adja meg a szükséges engedélyeket és telepítse a programot!
+
+- Amennyiben nem az áruházból kívánja telepíteni az alkalmazást, úgy töltse le honlapunkról, csomagolja ki adja meg a szükséges engedélyeket!
+
+
 ## Karbantartási terv
 Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Microsoft Windows verziókkal kompatibilis-e az alkalmazás. A jövőben szükség lehet új hardware implementációra igénynövekedés esetén.
 **Karbantartás**
