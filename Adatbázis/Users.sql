@@ -1,0 +1,8 @@
+Create table users(
+user_id INT PRIMARY KEY,
+username VARCHAR2(250) NOT NULL,
+password VARCHAR2(250) NOT NULL,
+email VARCHAR2(250) NOT NULL UNIQUE,
+roles_Id INT
+)
+ALTER TABLE users ADD CONSTRAINT FK_UR FOREIGN KEY(roles_Id) REFERENCES Role_s(Role_Id);
