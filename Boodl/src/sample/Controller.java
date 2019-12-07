@@ -19,9 +19,13 @@ import java.io.IOException;
 public class Controller {
 
     @FXML
-    private GridPane rootpane;
+    public GridPane rootpane;
+
+
 
     public void bt_Reg(ActionEvent event) throws IOException {
+
+        
         GridPane tableViewParent = FXMLLoader.load(getClass().getResource("Reg.fxml"));
         tableViewParent.getChildren().setAll(rootpane);
 
