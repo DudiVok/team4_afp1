@@ -1,22 +1,22 @@
-# Placeholder(project neve) - FunkSpec
+﻿# Placeholder(project neve) - FunkSpec
 
 ## Áttekintés
-Az alkalmazásunk lényege hogy közösségbe boronáljon olyan félénk fiatalabb zenészeket, akik valamilyen oknál kifolyólag eddig nem találták a helyüket a zenei világban. Nekik kínálunk, társakat barátokat , Jam-session-t .
+Az alkalmazásunk lényege hogy közösségbe boronáljon olyan félénk fiatalabb zenészeket, akik valamilyen oknál kifolyólag eddig nem találták a helyüket a zenei világban. Nekik kínálunk társakat, barátokat, Jam-session-t .
 Ez a rendszer ingyenes lesz, ezért bárki bárhonnan le tudja majd tölteni számítógépére vagy esetleg interneten keresztül beregisztrál és máris hozzájut a legfrissebb újdonságokhoz és az alkalmazásunk nyújtotta előnyökkel.
 Az alkalmazásban a zenész regisztrálhatja a nevét, életkorát, és hogy milyen fajta zenei stílus iránt érdeklődik, és hogy mit keres épp a partnerében. Van lehetőség fényképet is feltölteni, megkönnyítve ezzel a felhasználók dolgát, ha épp specifikus hangszert használó személlyel szeretne találkozni.
 
 ## Jelenlegi helyzet
-Szeretnénk nyújtani egy egyszerűen használható, könnyen hozzáférhető lehetőséget amatőr zenészeknek saját bandájuk összehozására, más zenészekkel kapcsolatteremtésre. Azoknak biztosítanánk hozzáférést a zenészközösséghez, akik idő- vagy akarathiány okán nem tudnak maguktól, a szokásos konvenciók segítségével. A zenekaralkotás folyamatát szeretnék a XXI. század trendjei és technológiái segítségével traszcendálni.
+Szeretnénk nyújtani egy egyszerűen használható, könnyen hozzáférhető lehetőséget amatőr zenészeknek saját bandájuk összehozására, más zenészekkel kapcsolatteremtésre. Azoknak biztosítanánk hozzáférést a zenészközösséghez, akik idő- vagy akarathiány okán nem tudnak maguktól, a szokásos konvenciók segítségével. A zenekaralkotás folyamatát szeretnék a XXI. század trendjei és technológiái segítségével transzcendálni.
 
 ## Jelenlegi üzleti folyamatok modellje
-A mai világban ahol már mindent összeköt az internet és sokkal könnyebben tarthatjuk a kapcsolatot meglévő ismerősökkel , és nagyon könnyen találhatunk újjat nagyon furcsa jelenség hogy zenei eggyütesek létrehozása közeli ismerősök segítségével jön létre és csak pár kilóméteres körzetre terjednek ki. Mi ezt a nagyon nehézkes és lassan haladó folyamatot szeretnék meg gyorsítani, illetve sokkal könnyebbé tenni egy egyszerű program segítségével. Az program segítségével olyan személyekről tudhatjuk meg hogy zenélnek vagy éppen énekelnek akikről nem gondolhattuk volna. Ha egy nagyon szűk zenei réteget képviselünk akkor akár meg találhatjuk az országban az eggyetlen másik személyt is aki ugyan azt képviseli. 
+A mai világban ahol már mindent összeköt az internet és sokkal könnyebben tarthatjuk a kapcsolatot meglévő ismerősökkel , és nagyon könnyen találhatunk újat nagyon furcsa jelenség hogy zenei együttesek létrehozása közeli ismerősök segítségével jön létre és csak pár kilóméteres körzetre terjednek ki. Mi ezt a nagyon nehézkes és lassan haladó folyamatot szeretnék meg gyorsítani, illetve sokkal könnyebbé tenni egy egyszerű program segítségével. Az program segítségével olyan személyekről tudhatjuk meg hogy zenélnek vagy éppen énekelnek akikről nem gondolhattuk volna. Ha egy nagyon szűk zenei réteget képviselünk akkor akár meg találhatjuk az országban az egyetlen másik személyt is aki ugyan azt képviseli. 
 
 ## Igényelt üzleti folyamatok modellje
-Azért hogy egyszerűbbé tegyük a zenészek társasági összefogását  létrehozunk egy programot ami a mai kornak megfelelően helyt tud állni az elektronikai világban. Felhasználóinknak így egyszerűbb lesz magukról információt megosztani, valamint bemutatni tudásukat. A zeneileg nyitottak akár új, számukra eddig ismeretlen stílusokkal is ismerkedhetnek, hiszen a felhasználók egyedisége , személyisége teszi még színesebbé programunk. Ha egy óriás megapoliszban élünk, pl: Tokió, New York, Sanghaj, Delhi, Los Angeles, kizárt hogy mind a kb 30 millió emberről tudjuk, hogy milyen zenei beállítottságúak, és abban a stílusban hogyan teljesítenek
+Azért hogy egyszerűbbé tegyük a zenészek társasági összefogását  létrehozunk egy programot ami a mai kornak megfelelően helyt tud állni az elektronikai világban. Felhasználóinknak így egyszerűbb lesz magukról információt megosztani, valamint bemutatni tudásukat. A zeneileg nyitottak akár új, számukra eddig ismeretlen stílusokkal is ismerkedhetnek, hiszen a felhasználók egyedisége , személyisége teszi még színesebbé programunk. Ha egy óriás megapoliszban élünk, pl.: Tokió, New York, Sanghaj, Delhi, Los Angeles, kizárt hogy mind a kb. 30 millió emberről tudjuk, hogy milyen zenei beállítottságúak, és abban a stílusban hogyan teljesítenek
 
 ## Használati esetek
-**Admin**: Az Admin elérheti az összes, minden más felhasználó álltal elérhető funkiót, hogy azok hibamentes működését ellenőrizhesse. Az Admin(ok) feladata a rendszer problémamentes működtetése. Ez egyben jár azzal, hogy az egész rendszerhez van hozzáférésük. Az Admin(ok)nak hozzá kell tudni férniük a felhasználók listájához, ahol mindent láthatnak és módosíthatnak egy felhasználó profilján. Tudniuk kell a felhasználók jogosultságait, szerepkörét, jelszavát, és felhasználónevét módosítani. Továbbá képesnek kell lenniük arra, hogy felhasználókat vegyenek fel rendszerbe és, amennyiben a felhasználó nem tartja be a felhasználási feltételeket, hogy eltávolítsák őket.
-**User**: A User eléri saját profilját, és azok profiljának publikus részét, akiket kiválasztott potenciáls bandatagnak. Továbbá képes belépni a kiválasztó képernyőbe, amin egyesével tudja megnézni, meghallgatni, majd ha tetszésének megfelel, kiválasztani az általik beállított szűrők alapján megjelenő felhasználókat. A User(ek)nek hozzá kell férniük saját profiljukhoz, amin módosítani kell tudniuk saját személyes adataikat (Név, Lakhely, Műfaj(ok), e-mail), és meg kell tudni jelölniük azokat privátnak vagy publikusnak. Meg kell tudniuk változtatni jelszavukat biztonsági okokból. Fel kell tudniuk tölteni demókat, ami alapján más felhasználók kiválaszthatják őket.
+**Admin**: Az Admin elérheti az összes, minden más felhasználó által elérhető funkciót, hogy azok hibamentes működését ellenőrizhesse. Az Admin(ok) feladata a rendszer problémamentes működtetése. Ez egyben jár azzal, hogy az egész rendszerhez van hozzáférésük. Az Admin(ok-nak hozzá kell tudni férniük a felhasználók listájához, ahol mindent láthatnak és módosíthatnak egy felhasználó profilján. Tudniuk kell a felhasználók jogosultságait, szerepkörét, jelszavát, és felhasználónevét módosítani. Továbbá képesnek kell lenniük arra, hogy felhasználókat vegyenek fel rendszerbe és, amennyiben a felhasználó nem tartja be a felhasználási feltételeket, hogy eltávolítsák őket.
+**User**: A User eléri saját profilját, és azok profiljának publikus részét, akiket kiválasztott potenciális bandatagnak. Továbbá képes belépni a kiválasztó képernyőbe, amin egyesével tudja megnézni, meghallgatni, majd ha tetszésének megfelel, kiválasztani az általik beállított szűrők alapján megjelenő felhasználókat. A User(ek)nek hozzá kell férniük saját profiljukhoz, amin módosítani kell tudniuk saját személyes adataikat (Név, Lakhely, Műfaj(ok), e-mail), és meg kell tudni jelölniük azokat privátnak vagy publikusnak. Meg kell tudniuk változtatni jelszavukat biztonsági okokból. Fel kell tudniuk tölteni demókat, ami alapján más felhasználók kiválaszthatják őket.
 
 ## Követelménylista
 
@@ -42,9 +42,9 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 
 - K3  Felhasználói-Rendszerhozzáférés, like-olhat, küldhet üzenetet, tölthet fel profilképet és zenei hanganyagot, bemutatkozó szöveget.
 
-- K4 A felhasználó módosítani tudja saját Felhasználónevét a saját profil beállításain belül. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése, valamint a felhasználó jelszavának megadása. 
+- K4 A felhasználó módosítani tudja saját Felhasználónevét a saját profil beállításain belül. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése, valamint a felhasználó jelszojának megadása. 
 
-- K5 A felhasználó módosítani tudja saját jelszavát a saját profil beállításain belül. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
+- K5 A felhasználó módosítani tudja saját jelszavát a saját profil beállításain belül. Ehhez szükséges a régi és az új jelszojának megadása, valamint az új megerősítése.
 
 - K6 Ha a felhasználó elfelejtette a felhasználónevét vagy jelszavát, akkor ezzel az opcióval egy Adminhoz tud fordulni email címen keresztül.
 
@@ -61,7 +61,7 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 
 	- Szűrők: A felhasználó szűkebb körben kereshet zenei társat. Csak azokat a felhasználókat adja ki a kereső mező, ami megfelel a beállított feltételeknek.
 
-	- Profil: A felhasználó itt testreszabhatja saját profilképét, promó hanganyagát. Készythet rövid leírást magáról hogy jobban megismerjék.
+	- Profil: A felhasználó itt testre szabhatja saját profilképét, promó hanganyagát. Készíthet rövid leírást magáról hogy jobban megismerjék.
 
 	- Értesítő sáv: A felhasználót értesíti az oldal (?) sarkában lévő ikon ha valaki más like-olta a profilját, vagy üzenetet küldött neki.
 
@@ -72,11 +72,11 @@ Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, az aktuális mező f
 -Bejelentkezik vagy regisztrál, itt megadja a megfelelő adatait.
 -Bejelentkezés/regisztráció után felhasználók galériájában találja magát ahol lájkolhat kép alapján / bemehet a profilba és lejátszhatja a promó zenéjét az adott illetőnek, illetve elolvashatja a magáról írt bemutatkozó szövegét. 
 -Ha valaki böngészés közben like-ol azesetben egy felugró ablak jelzi melyre kattintva azonnal a like-oló felhasználói profilján találjuk magunkat.
--Jobb alul található egy beállítások gomb amivel a saját profilunkra ugorhatunk, és módosíthatjuk saját adataink, promó zenénk.
+-Jobb alul található egy beállítások gomb, amivel a saját profilunkra ugorhatunk, és módosíthatjuk saját adataink, promó zenénk.
 
 ## Funkció-Követelmény megfeleltetés
-- **Jogosultság:** *-registráció:* a szolgáltatás használatához felhasználoi fiók szükséges, ennek lérehozásoz szükség van egy regisztrációs felülethez. *-bejelentkezés:* Ahhoz, hogy a felhasználó elérhesse fiókját és a szolgáltatás által nyújtott lehetőségeket, továbbá hogy a szerver az ő, és nem más fiókjához kötött adatokat küldje át bejelenkezés szükséges. *-jogszintek:* Míg az egyszerű felhasználó csak a saját profiljáoz fér hozzá, addig a rendszergazdák másokét is képes módosítani, közösségi menedzsmenti okokból.
-- **Modifikáció:** *-név:* A felhasználó saját profiljába belépve képes lesz módosítani nevét. *-jelszó:* A felhasználó profilján keresztül képes lesz elérni a jelszó módosítás képernyőt, amin az eddigi jelszava megadásával képes lesz újat beállítani magának. *-elfelejtett jelszó:* A belépési képernyő része, amin képes lesz a felhasználó külső jelszóváltoztatást kérni regisztrált e-mail címére az autómata rendszertől.
+- **Jogosultság:** *-regisztráció:* a szolgáltatás használatához felhasználói fiók szükséges, ennek létrehozáshoz szükség van egy regisztrációs felülethez. *-bejelentkezés:* Ahhoz, hogy a felhasználó elérhesse fiókját és a szolgáltatás által nyújtott lehetőségeket, továbbá hogy a szerver az ő, és nem más fiókjához kötött adatokat küldje át bejelenkezés szükséges. *-jogszintek:* Míg az egyszerű felhasználó csak a saját profiljához fér hozzá, addig a rendszergazdák másokét is képes módosítani, közösségi menedzsmenti okokból.
+- **Modifikáció:** *-név:* A felhasználó saját profiljába belépve képes lesz módosítani nevét. *-jelszó:* A felhasználó profilján keresztül képes lesz elérni a jelszómódosítás képernyőt, amin az eddigi jelszava megadásával képes lesz újat beállítani magának. *-elfelejtett jelszó:* A belépési képernyő része, amin képes lesz a felhasználó külső jelszóváltoztatást kérni regisztrált e-mail címére az automata rendszertől.
 - **Feladattípus:** *-demó:* A felhasználó képes lesz egy, vagy több demó feltöltésére, amiket majd felruházhat stílus és hangszer jelölőkkel, és amiket a központi adatbázisban fogunk tárolni.
 - **Statisztika:** *-toplista:* Külön felület, amin a felhasználók láthatják az aktuális, felhasználók által pontozott ranglétrát.
-- **Felület:** *-üzenet:* Chatszobák, amiken keresztül a felhasználók képesek felvenni a kapcsolatot az általuk kiválasztott felhasználótársakkal. *-profil:* A felhasználó saját felülete, ahol képes saját adatait (pl.: műfjok, hangszerek) módosítani.
+- **Felület:** *-üzenet:* Chatszobák, amiken keresztül a felhasználók képesek felvenni a kapcsolatot az általuk kiválasztott felhasználótársakkal. *-profil:* A felhasználó saját felülete, ahol képes saját adatait (pl.: műfajok, hangszerek) módosítani.

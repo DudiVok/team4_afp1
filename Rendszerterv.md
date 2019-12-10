@@ -1,10 +1,10 @@
-# Rendszerterv
+﻿# Rendszerterv
 
 ## A rendszer célja
-A rendszer célja , hogy a felhasználók könnyedén találhassanak az alkalmazás segítségével zenei társaka akkikel akár késöbb zenei bandákat is létrehozhatnak. A felhasználóknak lehetőségük lessz profilképet feltölteni, hangfelvételeket feltölteni amiket ők csináltak ahogy éppen éenekelnek vagy valamilyen hangszeren játsznak, és rövid személyes leírást adni magukról. Az adminoknak lesz lehetőségük a spam fiókokat törölni . A program windows asztali körülmények között fog működni .A rendszer az adatokat egy Web Service segítségével kapja az adatbázisból. Mivel a programot csak windowsra szeretnénk elérhetővé tenni, nem célunk hogy más, például android operációs rendszerrel rendelkező eszközön fusson.
+A rendszer célja, hogy a felhasználók könnyedén találhassanak az alkalmazás segítségével zenei társakra, akikkel akár később zenei bandákat is létrehozhatnak. A felhasználóknak lehetőségük lesz profilképet feltölteni, hangfelvételeket feltölteni, amiket ők csináltak ahogy éppen énekelnek vagy valamilyen hangszeren játszanak, és rövid személyes leírást adni magukról. Az adminoknak lesz lehetőségük a spam fiókokat törölni . A program windows asztali körülmények között fog működni .A rendszer az adatokat egy Web Service segítségével kapja az adatbázisból. Mivel a programot csak windowsra szeretnénk elérhetővé tenni, nem célunk hogy más, például android operációs rendszerrel rendelkező eszközön fusson.
 
 ## Követelmények
-|   Funkciónális követelmények   | Nem Funkciónális Követemények | 
+|   Funkcionális követelmények   | Nem Funkcionális Követelmények | 
 |--------------------------------|-------------------------------|
 |Felhasználók adatainak tárolása|Egymás adatain ne tudják módosítani a felhasználók|
 |Felhasználók üzeneteinek elküldése||
@@ -33,7 +33,7 @@ A rendszer célja , hogy a felhasználók könnyedén találhassanak az alkalmaz
 |Backend|Kapcsolat létrehozása|3|4|
 ||Regisztráció implementálása|3|5|
 ||Bejelentkezés implementálása|3|5|
-||Elfejeltett jelszó implementálása|3|5|
+||Elfelejtett jelszó implementálása|3|5|
 ||Demó feltöltés implementálása|3|5|
 ||Profil kitöltés/módosítás implementálása|3|5|
 ||Jelszó változtatás implementálása|3|5|
@@ -85,13 +85,13 @@ PROFIL
 - Zene kép feltöltése
 
 ## Absztrakt domain modell
-A rendszert a felhasználó egy Windowsos alkalmazáson keresztül érheti majd el, aminek az elkészítését Java nyelven tervezzük. A felület lehetővé teszi majd a felhasznéló számára a regisztrációt, illetve késöbbieken a bejelentkezést a rendszerbe. A rendszeren belül lehetőséget nyújtunk a felhasználónak saját profilját elérni, illetve változtatni, akövetkező módokon: saját szűrési kritériumok beállítása (név, lakhely, műfaj(ok), hangszer(ek)), demo feltöltés, profilkép feltöltés, jelszóváltoztatás, láthatósági beállítások. Továbbá a felhasználó képes keresni a többi felhasználó között az alábbi szűrők segítségével: név, relatív távolság a felhasználók lakhelye között, játszott műfajok, játszott hangszerek. A szűrés alapján megjelenő felhasználók közül választhat az ő általuk feltöltött zenék segítségével, és felveheti a kapcsolatot a kiválasztott felhasználótársakkar, akár e-mail, akár egy beépített chat funkció segítségével. A felhasználól, azok adatai, valamint demói egy központi szerveren MySQL adatbázisban lesznek eltárolva.
+A rendszert a felhasználó egy Windowsos alkalmazáson keresztül érheti majd el, aminek az elkészítését Java nyelven tervezzük. A felület lehetővé teszi majd a felhasználó számára a regisztrációt, illetve későbbieken a bejelentkezést a rendszerbe. A rendszeren belül lehetőséget nyújtunk a felhasználónak saját profilját elérni, illetve változtatni, a következő módokon: saját szűrési kritériumok beállítása (név, lakhely, műfaj(ok), hangszer(ek)), demo feltöltés, profilkép feltöltés, jelszóváltoztatás, láthatósági beállítások. Továbbá a felhasználó képes keresni a többi felhasználó között az alábbi szűrők segítségével: név, relatív távolság a felhasználók lakhelye között, játszott műfajok, játszott hangszerek. A szűrés alapján megjelenő felhasználók közül választhat az ő általuk feltöltött zenék segítségével, és felveheti a kapcsolatot a kiválasztott felhasználótársakkal, akár e-mail, akár egy beépített chat funkció segítségével. A felhasználók, azok adatai, valamint demói egy központi szerveren MySQL adatbázisban lesznek eltárolva.
 
 ## Implementációs terv
 ### Windows Desktop Application
-Az alkalmazás felhasználói oldalát asztali alkazznak tervezzük, főleg mert a csapat nagy része sújos tapasztalt hiányban szenved mind mobil, mind webes alkalmazások implementáció terén. A terv a JAVA nyelv használatát írja elő, főleg mert ismerős és könnyen használható.
+Az alkalmazás felhasználói oldalát asztali alkalmazásnak tervezzük, főleg mert a csapat nagy része súlyos tapasztalt hiányban szenved mind mobil, mind webes alkalmazások implementáció terén. A terv a JAVA nyelv használatát írja elő, főleg mert ismerős és könnyen használható.
 ### Adatbázis
-A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen. A felhasználók, és azok adatainak rögzítése, tásrolása és rendszerezése céljából, továbbá hogy lehetővé tegyük a felhasználóknak az egymás közötti könnyű keresést a modern adatbáziskezelés konvenciói a leg célravezetőbbek. Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, ismételten az ismerettségeink tudatában, és a megbízhatóság fényében.
+A tervezett szolgáltatás jellegét tekintve egy központi adatbázis használata elengedhetetlen. A felhasználók, és azok adatainak rögzítése, tárolása és rendszerezése céljából, továbbá hogy lehetővé tegyük a felhasználóknak az egymás közötti könnyű keresést a modern adatbáziskezelés konvenciói a leg célravezetőbbek. Arra, hogy ezeket implementálhassuk, a MySQL rendszerét választottuk, ismételten az ismeretségeink tudatában, és a megbízhatóság fényében.
 
 ## Telepítési terv
 - Az projektünkbe foglalt alkalmazás egy olyan szoftver amelyet minden felhasználó az ő rá vonatkozó áruházból szerezhet be (Play Store, Apple Store, Microsoft Store), de akár a weboldalunkon keresztül is beszerezhető. Áruházból való telepítés során a felhasználónak szüksége van egy ahhoz az áruházhoz tartozó fiókra. Ha nincs fiókja akkor az áruház által felajánlott regisztrációs lépések után jelentkezzen be a fiókjába. Ez után a fenti keresősávba beírva azt, hogy "Boodl", vagy a weboldalunkon megadott hyperlink hivatkozás segítségével érheti el az alkalmazásunkat. Miután megnyílt az alkalmazás áruházas oldala a "letöltés" gombra nyomva egy felugró ablak fog fogadni minket amelyben az alkalmazás által felhasznált jogosultságokról tájékoztat. A folytatáshoz ezt el kell fogadni, és ez után már települ is az alkalmazás. Ha valamilyen oknál fogva a felhasználó szeretné elkerülni az áruházak alkalmazását, a weboldalunkon keresztül akár natívan is letöltheti az alkalmazásunk telepítő csomagját, amely telepítését tekintve hasonló procedúrán megy keresztül az áruházas alternatívákhoz képest.
