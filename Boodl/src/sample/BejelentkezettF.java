@@ -10,7 +10,11 @@ import javafx.scene.layout.AnchorPane;
 import java.io.IOException;
 
 public class BejelentkezettF {
-    public void bt_Setting(ActionEvent event){
+    @FXML
+    public  AnchorPane rootPane ;
+    public void bt_Setting(ActionEvent event) throws IOException {
+        AnchorPane pane =FXMLLoader.load(getClass().getResource("Setting.fxml"));
+        rootPane.getChildren().setAll(pane);
         System.out.println("Beállítások panelen");
     }
     public void bt_Like(ActionEvent event){

@@ -3,9 +3,9 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
+
 
 import java.io.IOException;
 
@@ -24,7 +24,9 @@ public class Kezdo {
 
         System.out.println("Bejelentkezet panelen");
     }
-    public void bt_For(ActionEvent event){
+    public void bt_For(ActionEvent event) throws IOException {
+        AnchorPane pane =FXMLLoader.load(getClass().getResource("Elfelejtett.fxml"));
+        rootPane.getChildren().setAll(pane);
         System.out.println("Elfelejtett panelen");
     }
 }
