@@ -1,6 +1,13 @@
 package sample;
 
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+
+
 import javafx.event.ActionEvent;
+import javafx.scene.layout.AnchorPane;
+
+import java.io.IOException;
 
 public class BejelentkezettF {
     public void bt_Setting(ActionEvent event){

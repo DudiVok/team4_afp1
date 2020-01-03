@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane fx:id="bejelentkez" alignment="CENTER" hgap="10" prefHeight="400.0" prefWidth="600.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BejelentkezettF">
-    <padding><Insets bottom="40" right="40" top="40" /></padding>
-    <columnConstraints>
-        <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="100.0" prefWidth="100.0" />
-        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
-      <ColumnConstraints />
-    </columnConstraints>
-
-    <GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
-
-    </GridPane>
-    <GridPane minWidth="-Infinity" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
-        <Button onAction="#bt_Like" prefHeight="40" prefWidth="100" text="Lájk" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-        <Button onAction="#bt_Dislike" prefHeight="40" prefWidth="100" text="Disklájk" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-        <Button onAction="#bt_Play" prefHeight="40" prefWidth="100" text="El indít" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-        <Button onAction="#bt_Pause" prefHeight="40" prefWidth="100" text="Leállít" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-        <Button onAction="#bt_NextSong" prefHeight="40" prefWidth="100" text="Következő szám" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-      <columnConstraints>
-         <ColumnConstraints />
-         <ColumnConstraints />
-         <ColumnConstraints />
-      </columnConstraints>
-      <rowConstraints>
-         <RowConstraints />
-         <RowConstraints />
-         <RowConstraints />
-      </rowConstraints>
-    </GridPane>
-    <Button onAction="#bt_Setting" prefHeight="40" prefWidth="100" text="Beállítások" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-   <rowConstraints>
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-   </rowConstraints>
-</GridPane>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BejelentkezettF">
+   <children>
+      <Button layoutX="137.0" layoutY="138.0" mnemonicParsing="false" onAction="#bt_Like" text="Lájk" />
+      <Button layoutX="398.0" layoutY="138.0" mnemonicParsing="false" onAction="#bt_Dislike" text="Dislájk" />
+      <Button layoutX="137.0" layoutY="188.0" mnemonicParsing="false" onAction="#bt_Play" text="El indít" />
+      <Button layoutX="268.0" layoutY="188.0" mnemonicParsing="false" onAction="#bt_Pause" text="Leállít" />
+      <Button layoutX="398.0" layoutY="188.0" mnemonicParsing="false" onAction="#bt_NextSong" text="Következő szám" />
+      <Button layoutX="266.0" layoutY="253.0" mnemonicParsing="false" onAction="#bt_Setting" text="Beállítások" />
+   </children>
+</AnchorPane>
