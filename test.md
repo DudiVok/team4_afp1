@@ -253,20 +253,19 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 ### 6.1 Tesztelési jelentés -  1. Bejletkezés, regisztráció funkcó tesztelése 
 |   |   |
 |---|---|
-| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | "A bejentkezés és regisztráció opció lépésről lépésre tesztelésre került hibás és megfelelő adatokkal" |
-| A tesztelt folyamatok/funkciók/modulok leírása: |   |
-| A tesztadatok típusa:  | N/A  |
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | "A bejentkezés és regisztráció opció lépésről lépésre tesztelésre került hibás és megfelelő adatokkal, a connection miatt nem működik megfelelően" |
+| A tesztelt folyamatok/funkciók/modulok leírása: | Insert, Select |
+| A tesztadatok típusa:  | String, int  |
 | A tesztelt rendszer beállításai:  | A program specifikációjában szereplő alap beálítások  |
-| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
-| Megjegyzések:  | -  |
+| A tesztelés eredménye:  | **élesíthető**  |
+| Megjegyzések:  | BUG |
 
 **Tesztelést elvégezte**
 |   |   |
 |---|---|
-|  Név: |  Donkó Róbert Márk |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Név: |  Vajda Krisztián  |
+|  Szervezeti egység/ beosztás: |  Vezető adatbázis fejlesztő |
 |  Dátum: |  2020.01.06 12:15  |
-
 
 ### 6.2 Tesztelési jelentés - 2. Lájk, Dislike funkció tesztelése
 |   |   |
@@ -333,3 +332,14 @@ A gui hibátlanul elindul, megnyitja a bejelentkező felületet. A textboxok mű
 
 ## #2:Adatbázis teszt:
 Az adatbázist phpmyadmin-ba be importálva hibátlanul lefutnak, legenerálják a táblákat, rekordokat lehet felvinni és ezeken szűréseket hatékonyan végezni.
+
+## #3:Adatbázis Connecztion teszt:
+
+Az adatbázis már hibátlanul fut, viszont a JAVA nyelven íródott program, felismeri látja, mégsem tudja kezelni és hibát dob rá, ezért nem lehet insertálni-Selectelni vagy egyébb CRUD műveletet végezni rajta program futtatásával, csak és kizárólag belül a programkódban megírt SQL utasítások segítségével. 
+
+**Tesztelést elvégezte**
+|   |   |
+|---|---|
+|  Név: |  Vajda Krisztián  |
+|  Szervezeti egység/ beosztás: |  Vezető adatbázis fejlesztő |
+|  Dátum: |  2020.01.15 21:15  |
