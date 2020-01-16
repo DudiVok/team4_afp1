@@ -28,5 +28,11 @@ public class Kezdo {
         AnchorPane pane =FXMLLoader.load(getClass().getResource("Elfelejtett.fxml"));
         rootPane.getChildren().setAll(pane);
         System.out.println("Elfelejtett panelen");
+   }
+   public void Insert_User(){
+
+
     }
+
+
 }
