@@ -22,17 +22,28 @@
                 <Font size="24.0" />
             </font></Label>
         <TextField fx:id="Email" layoutX="250.0" layoutY="107.0" maxWidth="200" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <Label layoutX="157.0" layoutY="164.0" text="Jelszó:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+        <Label layoutX="157.0" layoutY="230.0" text="Jelszó:" GridPane.columnIndex="0" GridPane.rowIndex="3">
             <font>
                 <Font size="24.0" />
             </font></Label>
-        <PasswordField fx:id="Password" layoutX="250.0" layoutY="161.0" maxWidth="200" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <Button fx:id="btReg" defaultButton="true" layoutX="318.0" layoutY="231.0" onAction="#bt_Reg" prefHeight="40" prefWidth="100" text="Regisztráció" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
+        <Label layoutX="60.0" layoutY="170.0" text="Felhasználónév:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+        <TextField fx:id="FElhaszn" layoutX="250.0" layoutY="170.0" maxWidth="200" prefHeight="40"/>
+        <Label layoutX="157.0" layoutY="230.0" text="Jelszó:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+
+
+        <PasswordField fx:id="Password" layoutX="250.0" layoutY="230.0" maxWidth="200" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button fx:id="btReg" defaultButton="true" layoutX="318.0" layoutY="300.0" onAction="#bt_Reg" prefHeight="40" prefWidth="100" text="Regisztráció" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
             <GridPane.margin>
                 <Insets bottom="20" left="0" right="0" top="20" />
             </GridPane.margin>
         </Button>
-        <Button fx:id="btLogin" defaultButton="true" layoutX="191.0" layoutY="231.0" onAction="#bt_Log" prefHeight="40" prefWidth="100" text="Bejelentkezés" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
+        <Button fx:id="btLogin" defaultButton="true" layoutX="191.0" layoutY="300.0" onAction="#bt_Log" prefHeight="40" prefWidth="100" text="Bejelentkezés" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
             <GridPane.margin>
                 <Insets bottom="20" left="0" right="0" top="20" />
             </GridPane.margin>
