@@ -46,7 +46,7 @@ Ez a fejezet a teszteléshez szükséges erőforrásokat fejti ki.
 ### 2.2 Tesztkörnyezet
 | Környezet neve és feladata  |  A hozzáférés módja | Konfiguráció  |
 |---|---|---|
-| PHP 7.2 | Offline - Szabad szoftver | Windows 10 - alapértemezett beállítások |
+| Intellij idea | Offline - Szabad szoftver | Windows 10 - alapértemezett beállítások |
 | MYSQL workbench  | Offline - Szabad szoftver | Windows 10 - alapértemezett beállítások |
 
 ### 2.3 Tesztadatok
@@ -131,6 +131,7 @@ Az alábbi funkcionális elvárások szerepelnek az üzleti illetve fejlesztői 
 | 3. |   |
 
 Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejlesztői specifikációban, amelyek tesztelésre is kerültek: 
+
 | #  | Leírás |
 |---|---|
 | 1. |  bejletkezés,regisztráció funkcó tesztelése |
@@ -190,6 +191,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
@@ -212,6 +214,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
@@ -234,6 +237,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
@@ -261,6 +265,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
@@ -279,6 +284,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
@@ -297,6 +303,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
@@ -314,6 +321,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
