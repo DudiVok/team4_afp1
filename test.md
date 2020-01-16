@@ -16,9 +16,9 @@
 
 |  Név | Szerepkör |
 |---|:-:|
-| Donkó Róbert Márk |  Projekt manager |
-| Vajda Krisztián  |  Vezető fejlesztő|
-| Imre Dávid Levente | Test manager |
+| Donkó Róbert Márk |  Projekt manager , Test maneger |
+| Vajda Krisztián  |  Vezető adatbázis fejlesztő |
+| Imre Dávid Levente | Adatbázis fejlesztő |
 
 ## 1. Bevezetés
 Tesztelés célja a projektben megtalálható struktúrális és dizányn hibák feltárása.
@@ -161,7 +161,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | A tesztelés előfeltételei:  |  A programnak rendelkeznie kell minimum egy dummy adatbázissal |
 | A tesztelés dátuma és időpontja:  |  2020.01.06 10:25 |
 | A tesztadatok típusa:  | N/A  |
-| A tesztet végző személy(ek):  | Imre Dávid Levente  |
+| A tesztet végző személy(ek):  | Donkó Róbert Márk  |
 | A tesztelt rendszer beállításai:  | A program specifikációjában szereplő alap beálítások  |
 | A teszt-eset elvárt eredménye:  |  A specifikációban taglalt viselkedés |
 | A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
@@ -170,8 +170,8 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 **Tesztelést elvégezte**
 |   |   |
 |---|---|
-|  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Név: |  Donkó Róbert Márk |
+|  Szervezeti egység/ beosztás: | Projekt manager , Test maneger  |
 |  Dátum: |  2020.01.06 11:15  |
 
 ### 5.2 Tesztelési jegyzőkönyv - 2. Lájk, Dislike funkció tesztelése
@@ -183,7 +183,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | A tesztelés előfeltételei:  |  A programnak rendelkeznie kell minimum egy dummy adatbázissal |
 | A tesztelés dátuma és időpontja:  |  2020.01.06 11:38 |
 | A tesztadatok típusa:  | szöveg  |
-| A tesztet végző személy(ek):  | Imre Dávid Levente  |
+| A tesztet végző személy(ek):  | Donkó Róbert Márk  |
 | A tesztelt rendszer beállításai:  | A program specifikációjában szereplő alap beálítások  |
 | A teszt-eset elvárt eredménye:  |  A szovegszerkesztó optimális működése |
 | A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
@@ -192,8 +192,8 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 **Tesztelést elvégezte**
 |   |   |
 |---|---|
-|  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Név: |  Donkó Róbert Márk |
+|  Szervezeti egység/ beosztás: | Projekt manager , Test maneger  |
 |  Dátum: |  2020.01.06 12:15  |
 
 ### 5.3 Tesztelési jegyzőkönyv - 3. Zenene lejátszó funkció tesztelése
@@ -215,7 +215,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Szervezeti egység/ beosztás: | Adatbázis fejlesztő  |
 |  Dátum: |  2020.01.06 13:58  |
 
 ### 5.4 Tesztelési jegyzőkönyv - 4. Profil szerkesztés funkció
@@ -237,7 +237,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Szervezeti egység/ beosztás: | Adatbázis fejlesztő  |
 |  Dátum: |  2020.01.06 13:58  |
 
 ### 5.5 Jóváhagyások
@@ -263,7 +263,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 **Tesztelést elvégezte**
 |   |   |
 |---|---|
-|  Név: |  Imre Dávid Levente |
+|  Név: |  Donkó Róbert Márk |
 |  Szervezeti egység/ beosztás: | Test manager  |
 |  Dátum: |  2020.01.06 12:15  |
 
@@ -281,7 +281,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 **Tesztelést elvégezte**
 |   |   |
 |---|---|
-|  Név: |  Imre Dávid Levente |
+|  Név: |  Donkó Róbert Márk |
 |  Szervezeti egység/ beosztás: | Test manager  |
 |  Dátum: |  2020.01.06 12:15  |
 
@@ -300,7 +300,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Szervezeti egység/ beosztás: | Adatbázis fejlesztő  |
 |  Dátum: |  2020.01.06 13:58  |
 
 ### 6.4 Tesztelési jelentés - 4. Profil szerkesztés funkció
@@ -317,7 +317,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Imre Dávid Levente |
-|  Szervezeti egység/ beosztás: | Test manager  |
+|  Szervezeti egység/ beosztás: | Adatbázis fejlesztő  |
 |  Dátum: |  2020.01.06 13:58  |
 
 ### 7 Jóváhagyások
