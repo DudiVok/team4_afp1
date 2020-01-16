@@ -169,6 +169,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 | Megjegyzések:  | -  |
 
 **Tesztelést elvégezte**
+
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
