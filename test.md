@@ -10,18 +10,18 @@
 | **Készítette:** | team4_afp1 |
 | **Utolsó mentés kelte:** | 2020.01.16 |
 | **Dokumentum célja:** | A projekt aktualis állapotának bemutatása   |
-| **Fájlnév** | Tesz.md |
+| **Fájlnév** | test.md |
 
 ### Projektben résztvevő fejlesztők:
 
 |  Név | Szerepkör |
 |---|:-:|
-| Donkó Róbert Márk |  Projekt manager , Test maneger |
+| Donkó Róbert Márk |  Projekt manager, Test maneger |
 | Vajda Krisztián  |  Vezető adatbázis fejlesztő |
 | Imre Dávid Levente | Adatbázis fejlesztő |
 
 ## 1. Bevezetés
-Tesztelés célja a projektben megtalálható struktúrális és dizányn hibák feltárása.
+Tesztelés célja a projektben megtalálható struktúrális és design hibák feltárása.
 
 ### 1.1 Tesztelési terv hatóköre, célja:
 
@@ -173,7 +173,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
-|  Szervezeti egység/ beosztás: | Projekt manager , Test maneger  |
+|  Szervezeti egység/ beosztás: | Projekt manager, Test maneger  |
 |  Dátum: |  2020.01.06 11:15  |
 
 ### 5.2 Tesztelési jegyzőkönyv - 2. Lájk, Dislike funkció tesztelése
@@ -196,7 +196,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 |   |   |
 |---|---|
 |  Név: |  Donkó Róbert Márk |
-|  Szervezeti egység/ beosztás: | Projekt manager , Test maneger  |
+|  Szervezeti egység/ beosztás: | Projekt manager, Test maneger  |
 |  Dátum: |  2020.01.06 12:15  |
 
 ### 5.3 Tesztelési jegyzőkönyv - 3. Zenene lejátszó funkció tesztelése
@@ -255,7 +255,7 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 
 ## 6 Tesztelési jelentés 
 
-### 6.1 Tesztelési jelentés -  1. Bejletkezés, regisztráció funkcó tesztelése 
+### 6.1 Tesztelési jelentés -  1. Bejelentkezés, regisztráció funkció tesztelése 
 |   |   |
 |---|---|
 | A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | "A bejentkezés és regisztráció opció lépésről lépésre tesztelésre került hibás és megfelelő adatokkal, a connection miatt nem működik megfelelően" |
@@ -269,9 +269,13 @@ Az alábbi elvárások szerepelnek az üzleti illetve fejlesztői specifikáció
 
 |   |   |
 |---|---|
+|  Név: |  Donkó Róbert Márk |
+|  Szervezeti egység/ beosztás: | Projekt Manager  |
+|  Dátum: |  2020.01.06 12:15  |
+|   |   |
 |  Név: |  Vajda Krisztián  |
 |  Szervezeti egység/ beosztás: |  Vezető adatbázis fejlesztő |
-|  Dátum: |  2020.01.06 12:15  |
+|  Dátum: |  2020.01.06 14:36  |
 
 ### 6.2 Tesztelési jelentés - 2. Lájk, Dislike funkció tesztelése
 |   |   |
@@ -342,7 +346,7 @@ A gui hibátlanul elindul, megnyitja a bejelentkező felületet. A textboxok mű
 ## #2:Adatbázis teszt:
 Az adatbázist phpmyadmin-ba be importálva hibátlanul lefutnak, legenerálják a táblákat, rekordokat lehet felvinni és ezeken szűréseket hatékonyan végezni.
 
-## #3:Adatbázis Connecztion teszt:
+## #3:Adatbázis Connection teszt:
 
 Az adatbázis már hibátlanul fut, viszont a JAVA nyelven íródott program, felismeri látja, mégsem tudja kezelni és hibát dob rá, ezért nem lehet insertálni-Selectelni vagy egyébb CRUD műveletet végezni rajta program futtatásával, csak és kizárólag belül a programkódban megírt SQL utasítások segítségével. 
 
