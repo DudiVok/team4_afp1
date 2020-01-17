@@ -107,9 +107,7 @@ Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem tűnne
 
 ## Fizikai környezet
 
-Az alkalmazás Android és web platformra, hordozható eszközökre(okostelefonok,táblagépek) készül.
-
-Van tűzfal a hálózaton és minden portot is engedélyez.
+Számítógép, cross-platformra Java kódolással készül így könnyedén hozzájuthat bárki akinek van működő számítógépe valamilyen operációs rendszerrel.
 
 Nincsenek megvásárolt komponenseink.
 
